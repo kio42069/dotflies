@@ -24,10 +24,10 @@
     # dynamic width from 0 to 300
     # width = (0, 300)
     # constant width of 300
-    width = 300
+    width = 100
 
     # The maximum height of a single notification, excluding the frame.
-    height = 300
+    height = 100
 
     # Position the notification in the top right corner
     origin = top-right
@@ -36,7 +36,7 @@
     offset = 20x20
 
     # Scale factor. It is auto-detected if value is 0.
-    scale = 0
+    scale = 0.5
 
     # Maximum number of notification (0 means no limit)
     notification_limit = 20
@@ -55,10 +55,10 @@
     progress_bar_frame_width = 0
 
     # Set the minimum width for the progress bar
-    progress_bar_min_width = 125
+    progress_bar_min_width = 75
 
     # Set the maximum width for the progress bar
-    progress_bar_max_width = 250
+    progress_bar_max_width = 150
 
     # Corner radius for the progress bar. 0 disables rounded corners.
     progress_bar_corner_radius = 4
@@ -451,15 +451,15 @@
     #default_icon = /path/to/icon
 
 [urgency_low]
-    background = "#22232A"
-    foreground = "#E2DFD1"
-    frame_color = "#262C48"
+    background = "#37373E"
+    foreground = "#CCCDBE"
+    frame_color = "#464B64"
     icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 10
 
 [urgency_normal]
-    background = "#4D5C78"
-    foreground = "#E2DFD1"
-    frame_color = "#622D28"
+    background = "#495372"
+    foreground = "#CCCDBE"
+    frame_color = "#705D49"
     icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 10
