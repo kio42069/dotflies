@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.colorTheme": "Monokai"
+}
